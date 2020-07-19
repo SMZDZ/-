@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:id="@+id/tv"
+        android:text="什么值得做"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/hei"
+        android:autoLink="web"
+        />
+
+</LinearLay>
+＃学习文档
