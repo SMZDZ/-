@@ -20,3 +20,38 @@
 
 </LinearLay>
 ＃安卓文本打法
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    边框-->
+    <stroke android:width="2px"
+        android:color="@color/hei"/>
+<!--    渐变-->
+    <gradient
+        android:angle="90"
+        android:endColor="#C0C0C0C0"
+        android:startColor="@color/hei"
+        />
+<!--    内边距-->
+    <padding
+        android:bottom="5dp"
+        android:left="5dp"
+        android:right="5dp"
+        android:top="5dp"
+        />
+    <!--    背景色-->
+    <solid
+       android:color="#87ceeb"
+       />
+<!--    圆角设置-->
+    <corners
+        android:bottomLeftRadius="200px"
+        android:bottomRightRadius="200px"
+        android:topLeftRadius="200px"
+        android:topRightRadius="200px"
+        />
+</shape>
+图片背景设置
+app->src->main->res->drawbele->new
+优势，占用资源少
