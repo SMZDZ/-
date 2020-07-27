@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/switchjob"
+    app:startDestination="@id/navFragment">
+
+    <fragment
+        android:id="@+id/navFragment"
+        android:name="com.example.job.NavFragment"
+        android:label="fragment_nav"
+        tools:layout="@layout/fragment_nav" >
+        <action
+            android:id="@+id/action_navFragment_to_mekFragment"
+            app:destination="@id/mekFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mekFragment"
+        android:name="com.example.job.MekFragment"
+        android:label="fragment_me"
+        tools:layout="@layout/fragment_me" >
+        <action
+            android:id="@+id/action_mekFragment_to_navFragment"
+            app:destination="@id/navFragment" />
+    </fragment>
+</navigation>
