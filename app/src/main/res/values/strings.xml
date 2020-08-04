@@ -1,7 +1,27 @@
 <resources>
-    <string name="app_name">smzdz</string>
-    <string name="login">登录</string>
-    <string name="sgister">立即注册</string>
-    <string name="zmzdz">什么值得做</string>
-    <string name="xz">给你更好的选择</string>
+    <string name="app_name">Job</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="shouye">首页</string>
+    <string name="HaoJia">好价</string>
+    <string name="Shequ">社区</string>
+    <string name="Shenghuo">生活</string>
+    <string name="Wode">我的</string>
+    <string name="logon">登录</string>
+    <string name="login">立即注册</string>
+    <string name="acount">还没有帐号?</string>
+    <string name="UnsignIndex">请先登录以进行工作匹配</string>
+    <string name="phonenumber">请输入你的手机号码</string>
+    <string name="password">请输入你的密码</string>
+    <string name="ziyouren">自由人</string>
+    <string name="tianxie">填写基本信息</string>
+    <string name="fang">放心, 该保密的都保密</string>
+    <string name="tiaoguo">跳过</string>
+    <string name="nichen">昵称</string>
+    <string name="shengri">生日</string>
+    <string name="zhiye">职业</string>
+    <string name="aihao">选择你的爱好</string>
+    <string name="wancheng">完成, 进入什么值得买</string>
+    <string name="queding">确定</string>
+    <string name="todo">TODO</string>
 </resources>
